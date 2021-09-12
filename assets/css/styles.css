@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Color =====*/
 :root{
   --first-color: #F68554;
   --second-color: #FFFFFF;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== typhografi =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -147,7 +147,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: #F68554;
 }
 .nav__link:hover{
   position: relative;
