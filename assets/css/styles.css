@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Color =====*/
+/*===== Colores =====*/
 :root{
   --first-color: #F68554;
   --second-color: #FFFFFF;
 }
 
-/*===== typhografi =====*/
+/*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margins =====*/
+/*===== Margenes =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -43,6 +43,26 @@
   --z-normal: 1;
   --z-tooltip: 10;
   --z-fixed: 100;
+}
+
+::-webkit-scrollbar {
+  width: 1.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(18 90% 65% / 1);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0 0% 98% / 1);
+  border: .25em solid hsl(18 90% 65% / 1);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0 0% 50% / 1);
 }
 
 /*===== BASE =====*/
@@ -147,7 +167,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: rgb(246,133,84);
+  color: #F68554;
 }
 .nav__link:hover{
   position: relative;
@@ -200,6 +220,9 @@ img{
 }
 .home__title-color{
   color: var(--first-color);
+}
+.home__title-color:hover{
+  color: black;
 }
 .home__social{
   display: flex;
