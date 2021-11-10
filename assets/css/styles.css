@@ -45,6 +45,7 @@
   --z-fixed: 100;
 }
 
+/*===== Scroll Bar =====*/
 ::-webkit-scrollbar {
   width: 1.5em;
 }
